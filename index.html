@@ -10,6 +10,15 @@
     <script src="https://kit.fontawesome.com/a4f06185ed.js" crossorigin="anonymous"></script>
     <!-- bootstrap.min.css  -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css">
+    <!-- google font  -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;1,700&display=swap"
+        rel="stylesheet">
+    <!-- css part -->
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+        }
+    </style>
 </head>
 
 <body>
@@ -121,7 +130,8 @@
             <div class="container py-5">
                 <div class="text-center mb-5">
                     <h2>Discover Our Popular Courses</h2>
-                    <p>To help learners decide what to explore in this exciting time of technical change.</p>
+                    <p class="text-secondary">To help learners decide what to explore in this exciting time of technical
+                        change.</p>
                 </div>
                 <div class="row g-3">
                     <div class="col-lg-6 col-md-12 ">
@@ -131,7 +141,8 @@
                             </div>
                             <div class="course_text align-self-center p-2">
                                 <h4>Fundamental Of UI/UX Design</h4>
-                                <p>The five main principles of UX design. There are many important principles within UX
+                                <p class="text-muted">The five main principles of UX design. There are many important
+                                    principles within UX
                                     design
                                 </p>
                                 <h6 class="text-primary">Price : 20$</h6>
@@ -140,13 +151,14 @@
                     </div>
                     <div class="col-lg-6 col-md-12 ">
                         <div class="rounded border bg-light d-flex flex-md-row flex-column">
-                            <div class="course_img">
+                            <div>
                                 <img src="images/course/course-2.png" alt="">
                             </div>
                             <div class="course_text align-self-center p-2">
                                 <h4>Javascript Basic to advanced</h4>
-                                <p>A perfect JavaScript course for all those who want to learn and master JavaScript
-                                    programming skills right from scratch
+                                <p class="text-muted">A perfect JavaScript course for all those who want to learn and
+                                    master JavaScript
+
                                 </p>
                                 <h6 class="text-primary">Price : 20$</h6>
                             </div>
@@ -159,7 +171,8 @@
                             </div>
                             <div class="course_text align-self-center p-2">
                                 <h4>Fullstack Web Development</h4>
-                                <p>A full stack web developer is a person who can develop both client and server
+                                <p class="text-muted">A full stack web developer is a person who can develop both client
+                                    and server
                                     software.
                                 </p>
                                 <h6 class="text-primary">Price : 20$</h6>
@@ -173,7 +186,8 @@
                             </div>
                             <div class="course_text align-self-center p-2">
                                 <h4>Digital Marketing</h4>
-                                <p>Digital marketing involves marketing to consumers through any number of digital
+                                <p class="text-muted">Digital marketing involves marketing to consumers through any
+                                    number of digital
                                     channels
                                 </p>
                                 <h6 class="text-primary">Price : 20$</h6>
@@ -187,8 +201,9 @@
                             </div>
                             <div class="course_text align-self-center p-2">
                                 <h4>Photography Basic Rules</h4>
-                                <p>If you want to harness that power and learn how to take the best possible photos,
-                                    welcome to “Photography Basics
+                                <p class="text-muted">If you want to harness that power and learn how to take the best
+                                    possible photos,
+
                                 </p>
                                 <h6 class="text-primary">Price : 20$</h6>
                             </div>
@@ -201,7 +216,8 @@
                             </div>
                             <div class="course_text align-self-center p-2">
                                 <h4>Motion Graphics</h4>
-                                <p>Motion graphics are pieces of animation or digital footage which create the illusion
+                                <p class="text-muted">Motion graphics are pieces of animation or digital footage which
+                                    create the illusion
                                     of motion
                                 </p>
                                 <h6 class="text-primary">Price : 20$</h6>
@@ -218,11 +234,11 @@
         <!-- explore part -->
         <section>
             <div class="container">
-                <div class="row d-flex flex-md-row align-items-center">
-                    <div class=" col-12 col-md-6 col-lg-6 flex-fill">
-                        <img class="img-fluid" src="images/working.png" alt="">
+                <div class="row align-items-center my-5">
+                    <div class=" col-12 col-lg-6 ">
+                        <img class="img-fluid" src="images/banner/banner-img-2.jpg" alt="">
                     </div>
-                    <div class="col-12 col-md-6 col-lg-6">
+                    <div class="col-12 col-lg-6">
                         <h2 class="">Explore The elearning Institute</h2>
                         <p class="text-muted">There are many variations of passages of Lorem Ipsum available, but the
                             majority
@@ -264,7 +280,8 @@
                 <div class="row flex-lg-row flex-column bg-primary align-items-center mt-5 p-5">
                     <div class="col-lg-6 text-light text-center text-lg-start px-5">
                         <h3>Ready to join?</h3>
-                        <p>It is a long established fact that a reader will be distracted by the readable content of
+                        <p class="">It is a long established fact that a reader will be distracted by the
+                            readable content of
                             a
                             page when looking at its
                             layout.</p>
@@ -282,174 +299,34 @@
                             <div class="modal-dialog">
                                 <div class="modal-content">
                                     <div class="modal-header">
-                                        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+
                                         <button type="button" class="btn-close" data-bs-dismiss="modal"
                                             aria-label="Close"></button>
                                     </div>
-                                    <div class="modal-body">
-                                        <div class="py-5 text-center">
-                                            <img class="d-block img-fluid mx-auto mb-4" src="images/course/course-2.png"
-                                                alt="" width="72" height="57">
-                                            <h2>SkillUp</h2>
-                                            <p class="lead">Below is an example form built entirely with Bootstrap’s
-                                                form controls. Each required form group has
-                                                a validation state that can be triggered by attempting to submit the
-                                                form without completing it.</p>
-                                        </div>
+                                    <div class="modal-body text-center">
+                                        <form>
+                                            <img class="mb-4 rounded-circle" src="images/course/course-2.png" alt=""
+                                                width="72" height="57">
+                                            <h1 class="h3 mb-3 fw-normal">SkillUp</h1>
 
-                                        <div class="row g-3">
-                                            <div class="col-md-5 col-lg-4 order-md-last">
-                                                <h4 class="d-flex justify-content-between align-items-center mb-3">
-                                                    <span class="text-primary">Your cart</span>
-                                                    <span class="badge bg-primary rounded-pill">3</span>
-                                                </h4>
-                                                <ul class="list-group mb-3">
-                                                    <li class="list-group-item d-flex justify-content-between lh-sm">
-                                                        <div>
-                                                            <h6 class="my-0">Product name</h6>
-                                                            <small class="text-muted">Brief description</small>
-                                                        </div>
-                                                        <span class="text-muted">$12</span>
-                                                    </li>
-                                                    <li class="list-group-item d-flex justify-content-between lh-sm">
-                                                        <div>
-                                                            <h6 class="my-0">Second product</h6>
-                                                            <small class="text-muted">Brief description</small>
-                                                        </div>
-                                                        <span class="text-muted">$8</span>
-                                                    </li>
-                                                    <li class="list-group-item d-flex justify-content-between lh-sm">
-                                                        <div>
-                                                            <h6 class="my-0">Third item</h6>
-                                                            <small class="text-muted">Brief description</small>
-                                                        </div>
-                                                        <span class="text-muted">$5</span>
-                                                    </li>
-                                                    <li class="list-group-item d-flex justify-content-between bg-light">
-                                                        <div class="text-success">
-                                                            <h6 class="my-0">Promo code</h6>
-                                                            <small>EXAMPLECODE</small>
-                                                        </div>
-                                                        <span class="text-success">−$5</span>
-                                                    </li>
-                                                    <li class="list-group-item d-flex justify-content-between">
-                                                        <span>Total (USD)</span>
-                                                        <strong>$20</strong>
-                                                    </li>
-                                                </ul>
-
-                                                <form class="card p-2">
-                                                    <div class="input-group">
-                                                        <input type="text" class="form-control"
-                                                            placeholder="Promo code">
-                                                        <button type="submit" class="btn btn-secondary">Redeem</button>
-                                                    </div>
-                                                </form>
+                                            <div class="form-floating">
+                                                <input type="email" class="form-control" id="floatingInput"
+                                                    placeholder="name@example.com">
+                                                <label for="floatingInput">Email address</label>
                                             </div>
-                                            <div class="col-md-7 col-lg-8">
-                                                <h4 class="mb-3">Billing address</h4>
-                                                <form class="needs-validation" novalidate>
-                                                    <div class="row g-3">
-                                                        <div class="col-sm-6">
-                                                            <label for="firstName" class="form-label">First name</label>
-                                                            <input type="text" class="form-control" id="firstName"
-                                                                placeholder="" value="" required>
-                                                            <div class="invalid-feedback">
-                                                                Valid first name is required.
-                                                            </div>
-                                                        </div>
-
-                                                        <div class="col-sm-6">
-                                                            <label for="lastName" class="form-label">Last name</label>
-                                                            <input type="text" class="form-control" id="lastName"
-                                                                placeholder="" value="" required>
-                                                            <div class="invalid-feedback">
-                                                                Valid last name is required.
-                                                            </div>
-                                                        </div>
-
-                                                        <div class="col-12">
-                                                            <label for="username" class="form-label">Username</label>
-                                                            <div class="input-group has-validation">
-                                                                <span class="input-group-text">@</span>
-                                                                <input type="text" class="form-control" id="username"
-                                                                    placeholder="Username" required>
-                                                                <div class="invalid-feedback">
-                                                                    Your username is required.
-                                                                </div>
-                                                            </div>
-                                                        </div>
-
-                                                        <div class="col-12">
-                                                            <label for="email" class="form-label">Email <span
-                                                                    class="text-muted">(Optional)</span></label>
-                                                            <input type="email" class="form-control" id="email"
-                                                                placeholder="you@example.com">
-                                                            <div class="invalid-feedback">
-                                                                Please enter a valid email address for shipping updates.
-                                                            </div>
-                                                        </div>
-
-                                                        <div class="col-12">
-                                                            <label for="address" class="form-label">Address</label>
-                                                            <input type="text" class="form-control" id="address"
-                                                                placeholder="1234 Main St" required>
-                                                            <div class="invalid-feedback">
-                                                                Please enter your shipping address.
-                                                            </div>
-                                                        </div>
-
-                                                        <div class="col-12">
-                                                            <label for="address2" class="form-label">Address 2 <span
-                                                                    class="text-muted">(Optional)</span></label>
-                                                            <input type="text" class="form-control" id="address2"
-                                                                placeholder="Apartment or suite">
-                                                        </div>
-
-                                                        <div class="col-md-5">
-                                                            <label for="country" class="form-label">Country</label>
-                                                            <select class="form-select" id="country" required>
-                                                                <option value="">Choose...</option>
-                                                                <option>United States</option>
-                                                            </select>
-                                                            <div class="invalid-feedback">
-                                                                Please select a valid country.
-                                                            </div>
-                                                        </div>
-
-                                                        <div class="col-md-4">
-                                                            <label for="state" class="form-label">State</label>
-                                                            <select class="form-select" id="state" required>
-                                                                <option value="">Choose...</option>
-                                                                <option>California</option>
-                                                            </select>
-                                                            <div class="invalid-feedback">
-                                                                Please provide a valid state.
-                                                            </div>
-                                                        </div>
-
-                                                        <div class="col-md-3">
-                                                            <label for="zip" class="form-label">Zip</label>
-                                                            <input type="text" class="form-control" id="zip"
-                                                                placeholder="" required>
-                                                            <div class="invalid-feedback">
-                                                                Zip code required.
-                                                            </div>
-                                                        </div>
-                                                    </div>
-
-
-
-                                                    <button class="w-100 btn btn-primary btn-lg" type="submit">Continue
-                                                        to checkout</button>
-                                                </form>
+                                            <div class="form-floating">
+                                                <input type="password" class="form-control" id="floatingPassword"
+                                                    placeholder="Password">
+                                                <label for="floatingPassword">Password</label>
                                             </div>
-                                        </div>
-                                    </div>
-                                    <div class="modal-footer">
-                                        <button type="button" class="btn btn-secondary"
-                                            data-bs-dismiss="modal">Close</button>
-                                        <button type="button" class="btn btn-primary">Save changes</button>
+
+                                            <div class="checkbox mb-3">
+                                                <label>
+                                                    <input type="checkbox" value="remember-me"> Remember me
+                                                </label>
+                                            </div>
+                                            <button class="w-100 btn btn-lg btn-primary" type="submit">Sign in</button>
+                                        </form>
                                     </div>
                                 </div>
                             </div>
@@ -459,6 +336,55 @@
             </div>
         </section>
         <!-- Register part end -->
+        <!-- Successfull Students part -->
+        <section>
+            <div class="container">
+                <div class="mt-5 text-center">
+                    <h3>Meet Our Successfull Students</h3>
+                    <p class="text-muted pe-5">A right decision of yours can bring you this success,so let's start your
+                        jurny.</p>
+                </div>
+                <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4">
+                    <div class="col">
+                        <div class="card h-100">
+                            <img src="images/student/student-1.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Awlad Hossain</h5>
+                                <p class="card-text text-muted">UIUX Designer</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100">
+                            <img src="images/student/student-2.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Jannatul Islam</h5>
+                                <p class="card-text text-muted">Motion Design</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100">
+                            <img src="images/student/student-3.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Imran Hossain</h5>
+                                <p class="card-text text-muted">Graphic Designer</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100">
+                            <img src="images/student/student-4.png" class="card-img-top" alt="...">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">Nishi Akter</h5>
+                                <p class="card-text text-muted">Web Developer</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Successfull Students part end -->
         <!-- Questions part -->
         <section id="">
             <div class="container col-lg-8 mt-5 d-flex flex-column ">
@@ -478,7 +404,7 @@
                         </h2>
                         <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show"
                             aria-labelledby="panelsStayOpen-headingOne">
-                            <div class="accordion-body">
+                            <div class="accordion-body text-muted">
                                 <strong>Grid and flexbox. </strong>The basic difference between CSS Grid Layout and CSS
                                 Flexbox Layout is that flexbox was designed for layout in one dimension - either a row
                                 or a column. Grid was designed for two-dimensional layout - rows, and columns at the
@@ -502,7 +428,7 @@
                         </h2>
                         <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse"
                             aria-labelledby="panelsStayOpen-headingTwo">
-                            <div class="accordion-body">
+                            <div class="accordion-body text-muted">
                                 <strong>Tailwind offers predesigned widgets to build a site from scratch with fast UI
                                     development.</strong> Bootstrap comes with a set of
                                 pre-styled responsive, mobile-first components that possess a definite UI kit. Tailwind
@@ -521,7 +447,7 @@
                         </h2>
                         <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse"
                             aria-labelledby="panelsStayOpen-headingThree">
-                            <div class="accordion-body">
+                            <div class="accordion-body text-muted">
                                 In CSS, the term "box model" is used when talking about design and layout. The
                                 CSS box model is essentially a box that
                                 wraps around every HTML element.In web development, the CSS box model refers to how
@@ -583,7 +509,7 @@
             <P class="text-muted fw-normal">Office 41, Zawaya Buildin, Ghala Muscat,</P>
             <P class="text-muted fw-normal">Sultanate of Oman</P>
             <P class="text-muted fw-normal">Privacy Ploicy | Terms of use</P>
-            <div class=" ">
+            <div class="pb-5">
                 <a target="_blank" href=""><i
                         class="fa-brands fa-facebook-f rounded-circle px-2 py-1 bg-secondary mx-1 text-white"></i></a>
                 <a target="_blank" href=""><i
@@ -596,9 +522,7 @@
         </div>
     </footer>
     <!-- footer part end -->
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur nobis ab reprehenderit aliquam quod, laudantium
-        quasi eveniet porro corporis quibusdam in, repellendus ut placeat, quisquam similique dolorum asperiores aperiam
-        ipsam!</p>
+
     <!-- bootstrap.bundel.min.js  -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
